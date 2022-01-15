@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.heading {
+    text-align: center;
+    color: #3A3A3A;
+}
+.the-section{
+    display: flex;
+}
+.child-of-section{
+    width: 50%;
+    margin: 40px 150px;
+}
+.child-of-section img{
+    width: 80%;
+}
+.intro{
+    color: #3A3A3A;
+}
+.child-of-section p{
+    color: #3A3A3A;
+}
+.anchor-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 15px;
+}
+.logos{
+    margin: 80px 150px;
+    border-top: 2px solid #979090;
+    border-bottom: 2px solid #979090;
+}
+.section-logo{
+    width: 50%;
+    height: 50%;
+    margin: 20px 10px;
+
+}
+.section-two{
+    align-items: center;
+    margin: 40px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px 20px;
+    
+}
+.collection-products{
+    width: 330px;
+    height: 476px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.collection-products img{
+    margin: 14px;
+}
+.collection-products h3{
+    margin: 5px 10px;
+}
+.collection-products p{
+    margin-left: 10px;
+}
+.the-ratings{
+    display: flex;
+}
+.ratings{
+    color: orange;
+    margin-left: 10px;
+    margin-right:10px ;
+}
+.collections .point{
+    color: grey;
+}
+.arrow{
+    color: #E02C6D;
+    font-size: 20px;
+    font-weight: 70;
+    margin-left: 1000px;
+}
+footer{
+    background-color: #0A0826;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.footer-icon{
+    text-align: center;
+    color: white;
+    font-weight: 700px;
+}
+
+.bonus{
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+
+@media (max-width:576px){
+    .the-section, .collections{
+        grid-template-columns: 1fr;
+    }
+    .logos{
+        grid-template-columns: 1fr;
+    }
+}
